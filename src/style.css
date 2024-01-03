@@ -29,6 +29,10 @@ body {
   text-align: center;
 }
 
+.text-smaller {
+  font-size: 14px;
+}
+
 .btn {
   background-color: rgb(78, 44, 200);
   color: white;
@@ -149,6 +153,7 @@ main p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+  text-align: justify;
   opacity: 0.7;
 }
 

@@ -110,7 +110,7 @@ main {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 main h2 {
@@ -155,6 +155,15 @@ main p {
   font-weight: 400;
   text-align: justify;
   opacity: 0.7;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .card {
@@ -233,5 +242,13 @@ footer p {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
